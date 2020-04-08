@@ -1,5 +1,4 @@
-# vtt-to-txt
-# vtt 转 txt 转换器
+# vtt-to-txt  vtt 转 txt 转换器
 Java program that allow you to get the texts from vtt files from YouTube
 
 
