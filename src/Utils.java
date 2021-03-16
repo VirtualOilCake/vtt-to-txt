@@ -27,7 +27,7 @@ public class MainWindow {
         window.setTitle("VTT转换");
         window.setSize(400, 500);
         window.setDefaultCloseOperation(3);
-        window.setLocationRelativeTo((Component)null);
+        window.setLocationRelativeTo((Component) null);
         FlowLayout flow = new FlowLayout();
         window.setLayout(flow);
         Dimension sizeForTexts = new Dimension(280, 30);
@@ -46,9 +46,9 @@ public class MainWindow {
         JLabel outputDescription = new JLabel();
         outputDescription.setText("输出地址");
         window.add(outputDescription);
-        inputTextField.setTransferHandler(new 1(this, outputTextField, inputTextField));
+        inputTextField.setTransferHandler(new 1 (this, outputTextField, inputTextField));
         JButton button = new JButton("转换");
-        button.addActionListener(new 2(this));
+        button.addActionListener(new 2 (this));
         window.add(button);
         window.setVisible(true);
     }
